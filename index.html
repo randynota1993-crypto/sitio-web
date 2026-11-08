@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computadoras Gamer</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+
+     
+        *{
+            box-sizing:border-box;
+        }
+
+      
+        h2{
+            color:navy;
+            text-transform:uppercase;
+        }
+
+        p{
+            font-size:16px;
+        }
+
+     
+        .presentacion{
+            background:#f0f8ff;
+            padding:15px;
+        }
+
+       
+        #destacado{
+            color:red;
+        }
+
+        p.intro{
+            font-weight:bold;
+        }
+
+      
+        h1,h2,p{
+            margin-bottom:10px;
+        }
+
+      
+        nav a{
+            text-decoration:none;
+        }
+
+  
+        section > p{
+            margin-top:10px;
+        }
+
+        
+        #destacado + p{
+            background:lightblue;
+        }
+
+    
+        #destacado ~ p{
+            border-left:4px solid blue;
+            padding-left:10px;
+        }
+
+        
+        nav a:hover{
+            color:yellow;
+        }
+
+        nav a:visited{
+            color:lightgreen;
+        }
+
+        nav a:active{
+            color:red;
+        }
+
+        
+        .lista li:first-child{
+            background:yellow;
+        }
+
+        .lista li:last-child{
+            background:pink;
+        }
+
+        .lista li:nth-child(3){
+            background:lightgreen;
+        }
+
+        .presentacion p::first-letter{
+            color:red;
+            font-size:24px;
+        }
+
+        .presentacion p::first-line{
+            font-weight:bold;
+        }
+
+        .presentacion p::selection{
+            background:yellow;
+        }
+
+        footer a::before{
+            content:"➜ ";
+        }
+
+        footer a::after{
+            content:" ✔";
+        }
+
+        ul li::marker{
+            color:red;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+         <h1 style="color:blue;">Computadoras Gamer</h1>
+   
+    </header>
+    <nav>
+        <ul>
+            <li><a class="menu" href="index.html">Inicio</a></li>
+            <li><a class="menu" href="catalogo.html">Catalogo</a></li>
+            <li><a class="menu" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+  <section class="presentacion">
+
+    <h2 id="destacado">Bienvenido</h2>
+
+    <p class="intro">
+        Somos una página dedicada a la venta y promoción de computadoras gamer de alto rendimiento para jugadores, estudiantes y profesionales.
+    </p>
+
+    <p>
+        Contamos con computadoras para gaming, edición de video y programación.
+    </p>
+
+    <p>
+        También ofrecemos asesoría para elegir el equipo adecuado.
+    </p>
+
+</section>
+
+        <section>
+
+    <h2>Características de nuestros equipos</h2>
+
+
+
+    <ul class="lista">
+        <li>Procesadores Intel y AMD</li>
+        <li>Tarjetas gráficas RTX</li>
+        <li>Memoria RAM DDR5</li>
+        <li>Discos SSD NVMe</li>
+        <li>Gabinetes RGB</li>
+
+    </ul>
+       
+    
+
+</section>
+    </main>
+    <aside>
+        <article>
+            <h2>¿Por qué elegir una PC Gamer?</h2>
+
+<p>
+Las computadoras gamer ofrecen mayor potencia, mejor capacidad gráfica y excelente desempeño para tareas exigentes.
+</p>
+        </article>
+    </aside>
+    <footer>
+        <p>© 2026 Computadoras Gamer</p>
+        <a href="https://www.asus.com" target="_blank">
+        ASUS
+    </a>
+    </footer>
+</body>
+</html>
